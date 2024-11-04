@@ -1,0 +1,30 @@
+.section2 img{
+    height: 400px;
+    width: 23vw;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-container{
+    position: relative;
+}
+.service-container >div{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.service-container .heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.service-container .sub-heading{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
